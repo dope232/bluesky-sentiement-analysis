@@ -5,15 +5,8 @@ A real-time sentiment analysis system that processes Bluesky posts using Apache 
 ## Architecture
 
 ```
-Bluesky API → Kafka → Spark → SQLite → Streamlit
+Bluesky API(Firehose) → Kafka → Spark → PostgreSQL → Streamlit
 ```
-
-
-- Python 3.8+
-- Apache Kafka
-- Apache Spark
-- SQLite
-- Streamlit
 
 ## TODO List
 
